@@ -41,7 +41,6 @@ TensorFlow.js:
     $ ln -s ../../yolov5/yolov5s_web_model public/yolov5s_web_model
     $ npm start
 """
-
 import argparse
 import json
 import os
@@ -51,6 +50,7 @@ import sys
 import time
 import warnings
 from pathlib import Path
+print(f'\n\nDEBUG, ROOT DIR: {os.getcwd()}\n\n')
 
 import pandas as pd
 import torch
