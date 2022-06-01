@@ -71,6 +71,7 @@ from utils.general import (LOGGER, check_dataset, check_img_size, check_requirem
 from utils.torch_utils import select_device
 
 
+
 def export_formats():
     # YOLOv5 export formats
     x = [
